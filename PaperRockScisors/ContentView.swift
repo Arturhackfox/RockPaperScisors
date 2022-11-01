@@ -17,7 +17,7 @@ struct ContentView: View {
     
     
     
-    @State private var choices = [ "Rock", "Paper", "Scisors"]
+    @State private var choices = [ "Rock", "Paper", "Scissors"]
     
     var body: some View {
         VStack {
@@ -67,19 +67,19 @@ struct ContentView: View {
         } else if ai == "Rock" && player == "Paper" {
             playerScore += 10
             didWin = true
-        } else if   ai == "Rock" && player == "Scisors"  {
+        } else if   ai == "Rock" && player == "Scissors"  {
             playerScore -= 5
             didWin = false
         } else if ai == "Paper" && player == "Rock" {
             playerScore -= 5
             didWin = false
-        } else if ai == "Paper" && player == "Scisors" {
+        } else if ai == "Paper" && player == "Scissors" {
             playerScore += 10
             didWin = true
-        } else if ai == "Scisors" && player == "Rock" {
+        } else if ai == "Scissors" && player == "Rock" {
             playerScore += 10
             didWin = true
-        } else if ai == "Scisors" && player == "Paper" {
+        } else if ai == "Scissors" && player == "Paper" {
             playerScore -= 5
             didWin = false
         }
