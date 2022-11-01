@@ -1,0 +1,592 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		32364818291049E500795816 /* PaperRockScisorsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32364817291049E500795816 /* PaperRockScisorsApp.swift */; };
+		3236481A291049E500795816 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32364819291049E500795816 /* ContentView.swift */; };
+		3236481C291049E700795816 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3236481B291049E700795816 /* Assets.xcassets */; };
+		3236481F291049E700795816 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3236481E291049E700795816 /* Preview Assets.xcassets */; };
+		32364829291049E700795816 /* PaperRockScisorsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32364828291049E700795816 /* PaperRockScisorsTests.swift */; };
+		32364833291049E700795816 /* PaperRockScisorsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32364832291049E700795816 /* PaperRockScisorsUITests.swift */; };
+		32364835291049E700795816 /* PaperRockScisorsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32364834291049E700795816 /* PaperRockScisorsUITestsLaunchTests.swift */; };
+		3236484429104D4B00795816 /* Button.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3236484329104D4B00795816 /* Button.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		32364825291049E700795816 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3236480C291049E500795816 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 32364813291049E500795816;
+			remoteInfo = PaperRockScisors;
+		};
+		3236482F291049E700795816 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3236480C291049E500795816 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 32364813291049E500795816;
+			remoteInfo = PaperRockScisors;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		32364814291049E500795816 /* PaperRockScisors.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PaperRockScisors.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		32364817291049E500795816 /* PaperRockScisorsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaperRockScisorsApp.swift; sourceTree = "<group>"; };
+		32364819291049E500795816 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		3236481B291049E700795816 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3236481E291049E700795816 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		32364824291049E700795816 /* PaperRockScisorsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PaperRockScisorsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		32364828291049E700795816 /* PaperRockScisorsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaperRockScisorsTests.swift; sourceTree = "<group>"; };
+		3236482E291049E700795816 /* PaperRockScisorsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PaperRockScisorsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		32364832291049E700795816 /* PaperRockScisorsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaperRockScisorsUITests.swift; sourceTree = "<group>"; };
+		32364834291049E700795816 /* PaperRockScisorsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaperRockScisorsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		3236484329104D4B00795816 /* Button.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Button.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		32364811291049E500795816 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32364821291049E700795816 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3236482B291049E700795816 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3236480B291049E500795816 = {
+			isa = PBXGroup;
+			children = (
+				32364816291049E500795816 /* PaperRockScisors */,
+				32364827291049E700795816 /* PaperRockScisorsTests */,
+				32364831291049E700795816 /* PaperRockScisorsUITests */,
+				32364815291049E500795816 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		32364815291049E500795816 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				32364814291049E500795816 /* PaperRockScisors.app */,
+				32364824291049E700795816 /* PaperRockScisorsTests.xctest */,
+				3236482E291049E700795816 /* PaperRockScisorsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		32364816291049E500795816 /* PaperRockScisors */ = {
+			isa = PBXGroup;
+			children = (
+				32364817291049E500795816 /* PaperRockScisorsApp.swift */,
+				32364819291049E500795816 /* ContentView.swift */,
+				3236484329104D4B00795816 /* Button.swift */,
+				3236481B291049E700795816 /* Assets.xcassets */,
+				3236481D291049E700795816 /* Preview Content */,
+			);
+			path = PaperRockScisors;
+			sourceTree = "<group>";
+		};
+		3236481D291049E700795816 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				3236481E291049E700795816 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		32364827291049E700795816 /* PaperRockScisorsTests */ = {
+			isa = PBXGroup;
+			children = (
+				32364828291049E700795816 /* PaperRockScisorsTests.swift */,
+			);
+			path = PaperRockScisorsTests;
+			sourceTree = "<group>";
+		};
+		32364831291049E700795816 /* PaperRockScisorsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				32364832291049E700795816 /* PaperRockScisorsUITests.swift */,
+				32364834291049E700795816 /* PaperRockScisorsUITestsLaunchTests.swift */,
+			);
+			path = PaperRockScisorsUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		32364813291049E500795816 /* PaperRockScisors */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 32364838291049E700795816 /* Build configuration list for PBXNativeTarget "PaperRockScisors" */;
+			buildPhases = (
+				32364810291049E500795816 /* Sources */,
+				32364811291049E500795816 /* Frameworks */,
+				32364812291049E500795816 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PaperRockScisors;
+			productName = PaperRockScisors;
+			productReference = 32364814291049E500795816 /* PaperRockScisors.app */;
+			productType = "com.apple.product-type.application";
+		};
+		32364823291049E700795816 /* PaperRockScisorsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3236483B291049E700795816 /* Build configuration list for PBXNativeTarget "PaperRockScisorsTests" */;
+			buildPhases = (
+				32364820291049E700795816 /* Sources */,
+				32364821291049E700795816 /* Frameworks */,
+				32364822291049E700795816 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				32364826291049E700795816 /* PBXTargetDependency */,
+			);
+			name = PaperRockScisorsTests;
+			productName = PaperRockScisorsTests;
+			productReference = 32364824291049E700795816 /* PaperRockScisorsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3236482D291049E700795816 /* PaperRockScisorsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3236483E291049E700795816 /* Build configuration list for PBXNativeTarget "PaperRockScisorsUITests" */;
+			buildPhases = (
+				3236482A291049E700795816 /* Sources */,
+				3236482B291049E700795816 /* Frameworks */,
+				3236482C291049E700795816 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				32364830291049E700795816 /* PBXTargetDependency */,
+			);
+			name = PaperRockScisorsUITests;
+			productName = PaperRockScisorsUITests;
+			productReference = 3236482E291049E700795816 /* PaperRockScisorsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3236480C291049E500795816 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					32364813291049E500795816 = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+					32364823291049E700795816 = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = 32364813291049E500795816;
+					};
+					3236482D291049E700795816 = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = 32364813291049E500795816;
+					};
+				};
+			};
+			buildConfigurationList = 3236480F291049E500795816 /* Build configuration list for PBXProject "PaperRockScisors" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3236480B291049E500795816;
+			productRefGroup = 32364815291049E500795816 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				32364813291049E500795816 /* PaperRockScisors */,
+				32364823291049E700795816 /* PaperRockScisorsTests */,
+				3236482D291049E700795816 /* PaperRockScisorsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		32364812291049E500795816 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3236481F291049E700795816 /* Preview Assets.xcassets in Resources */,
+				3236481C291049E700795816 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32364822291049E700795816 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3236482C291049E700795816 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		32364810291049E500795816 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3236481A291049E500795816 /* ContentView.swift in Sources */,
+				3236484429104D4B00795816 /* Button.swift in Sources */,
+				32364818291049E500795816 /* PaperRockScisorsApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32364820291049E700795816 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32364829291049E700795816 /* PaperRockScisorsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3236482A291049E700795816 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32364833291049E700795816 /* PaperRockScisorsUITests.swift in Sources */,
+				32364835291049E700795816 /* PaperRockScisorsUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		32364826291049E700795816 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 32364813291049E500795816 /* PaperRockScisors */;
+			targetProxy = 32364825291049E700795816 /* PBXContainerItemProxy */;
+		};
+		32364830291049E700795816 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 32364813291049E500795816 /* PaperRockScisors */;
+			targetProxy = 3236482F291049E700795816 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		32364836291049E700795816 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		32364837291049E700795816 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		32364839291049E700795816 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"PaperRockScisors/Preview Content\"";
+				DEVELOPMENT_TEAM = 7S5KXF68WA;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Arthur.Sh.PaperRockScisors;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3236483A291049E700795816 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"PaperRockScisors/Preview Content\"";
+				DEVELOPMENT_TEAM = 7S5KXF68WA;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Arthur.Sh.PaperRockScisors;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3236483C291049E700795816 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7S5KXF68WA;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Arthur.Sh.PaperRockScisorsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PaperRockScisors.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PaperRockScisors";
+			};
+			name = Debug;
+		};
+		3236483D291049E700795816 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7S5KXF68WA;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Arthur.Sh.PaperRockScisorsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PaperRockScisors.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PaperRockScisors";
+			};
+			name = Release;
+		};
+		3236483F291049E700795816 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7S5KXF68WA;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Arthur.Sh.PaperRockScisorsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PaperRockScisors;
+			};
+			name = Debug;
+		};
+		32364840291049E700795816 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7S5KXF68WA;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Arthur.Sh.PaperRockScisorsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PaperRockScisors;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3236480F291049E500795816 /* Build configuration list for PBXProject "PaperRockScisors" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32364836291049E700795816 /* Debug */,
+				32364837291049E700795816 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		32364838291049E700795816 /* Build configuration list for PBXNativeTarget "PaperRockScisors" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32364839291049E700795816 /* Debug */,
+				3236483A291049E700795816 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3236483B291049E700795816 /* Build configuration list for PBXNativeTarget "PaperRockScisorsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3236483C291049E700795816 /* Debug */,
+				3236483D291049E700795816 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3236483E291049E700795816 /* Build configuration list for PBXNativeTarget "PaperRockScisorsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3236483F291049E700795816 /* Debug */,
+				32364840291049E700795816 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3236480C291049E500795816 /* Project object */;
+}
